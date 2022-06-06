@@ -1,0 +1,32 @@
+.container-accordion {
+    margin-top: 50px;
+    margin-left: 320px;
+    border: 2px solid $colorG;
+    width: 700px;
+}
+
+.accordion-button {
+    background-color: $cardColor;
+}
+
+//Media
+
+@media screen and (max-width: 576px) {
+    .container-accordion {
+       
+        width: 340px;
+    }
+
+    #carouselHeader {
+        margin: calc(50% - 200px);
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-accordion{
+margin-left: 30px;
+    }
+}

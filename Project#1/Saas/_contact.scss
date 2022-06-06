@@ -1,0 +1,59 @@
+.bgImg {
+    display: flex;
+}
+
+.formHeader {
+    margin-left: calc(50% - 80px);
+    color: $colorP;
+}
+
+.formPar {
+    margin-left: calc(50% - 170px);
+    margin-top: 30px;
+}
+
+.form {
+    display: inline-block;
+    width: 500px;
+    margin-left: calc(50% - 200px);
+    box-shadow: $boxShadow3;
+    background-color: $cardColor;
+    color: $colorP;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid $colorG;
+    background: linear-gradient(to right, #e7e3d3, #dad5c6, #eeead6 70%);
+
+}
+
+//Mobile
+
+@media screen and (max-width: 576px) {
+    .form-img {
+        display: none;
+    }
+
+    .formPar {
+        width: 200px;
+        margin-left: 40px;
+    }
+
+    form.form {
+        width: 280px;
+        margin-left: 50px;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+.form-img{
+    display: none;
+}
+.formHeader{
+text-align: center;
+}
+.form{
+    margin-left: 130px;
+}
+}

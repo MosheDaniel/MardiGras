@@ -1,0 +1,102 @@
+.container-head {
+    background-color: $bgcColor;
+
+}
+
+.col-sm-head {
+    display: inline;
+}
+
+.par {
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 2;
+    text-align: justify;
+}
+
+.head1 {
+    margin-left: 90px;
+}
+
+.par1 {
+    margin-left: 50px;
+}
+
+.col-sm {
+    line-height: 2;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.col-sm h2 {
+    color: $colorP;
+}
+
+.col-sm-img {
+    margin-top: 130px;
+    margin-left: 120px;
+    width: 400px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation-name: BoxAnimate;
+    animation-duration: 3s;
+
+}
+
+@keyframes BoxAnimate {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 400px;
+    }
+}
+
+.col-sm-img2 {
+    margin-top: 200px;
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    box-shadow: $boxShadow3;
+    animation-name: BoxAnimate;
+    animation-duration: 3s;
+}
+
+//Media
+
+@media screen and (max-width: 576px) {
+    .col-sm-img {
+        display: none;
+    }
+
+    .col-sm-img2 {
+        display: none;
+    }
+
+    .head1 {
+        margin-left: 45px;
+    }
+
+    .par1 {
+      margin-right: 40px;
+    }
+
+p.par2 {
+width: 320px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+ .col-sm-img2{
+    display: none;
+ }
+ .par2{
+   width: 600px;
+   margin: 35px;
+ }
+
+}
+

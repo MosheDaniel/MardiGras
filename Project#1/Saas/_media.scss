@@ -1,0 +1,45 @@
+.galleryHead {
+    color: $colorP;
+    text-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-family: $headerFont;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.line5 {
+    display: inline-block;
+    padding: 2px;
+    background: $colorP;
+    margin-top: 10px;
+    width: 250px;
+    margin-left: 80px;
+    margin-right: -4px;
+}
+
+.img-fluid {
+    margin-bottom: 15px;
+    width: 300px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-fluid:hover {
+    opacity: 0.7;
+}
+
+//Media
+
+@media screen and (max-width: 576px) {
+    .col-lg-12 {
+        margin-left: 25px;
+    }
+
+    .portfolio-item {
+        width: 700px;
+    }
+
+    .col {
+        margin-left: 45px;
+    }
+}
